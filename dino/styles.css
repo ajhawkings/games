@@ -539,7 +539,7 @@ width: 100%;
 }
 
 .offline .runner-container {
-height: 150px;
+height: 1500px;
 max-width: 600px;
 overflow: hidden;
 position: absolute;
@@ -549,7 +549,7 @@ z-index: 2;
 }
 
 .offline .runner-canvas {
-height: 150px;
+height: 1500px;
 max-width: 600px;
 opacity: 1;
 overflow: hidden;

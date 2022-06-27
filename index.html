@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Games</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: linear-gradient(to left, #000, #222);
+            
+        }
+
+        body #content {
+            color: #fff!important
+        }
+        body>* {
+            padding: 1rem;
+        }
+
+        footer {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        footer a {
+            color: #0366d6;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+    <zero-md src="README.md" id="content"></zero-md>
+    <footer>
+        Check out the project on <a href="https://github.com/ajhawkigs/games">GitHub</a>
+    </footer>
 </body>
+
 </html>
